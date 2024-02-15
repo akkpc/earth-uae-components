@@ -1,8 +1,6 @@
-import React from 'react';
-import logo from './logo.svg';
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import './App.css';
 import { Comparison_Table_POC } from './components/Comparison_Table_POC';
-import { RouterProvider, createBrowserRouter } from "react-router-dom"
 
 const router = createBrowserRouter([
   {
@@ -11,7 +9,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/",
-    element: <Comparison_Table_POC />
+    element: <div>Hello</div>
   }
 ])
 
