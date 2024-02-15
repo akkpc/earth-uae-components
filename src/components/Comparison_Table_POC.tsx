@@ -58,7 +58,7 @@ const Comparison_Table_POC: React.FC = () => {
             key: 'parameters',
             width: `${20}%`,
             render: (text: string, record: any) => ({
-                children: <RowRender text={keyName[text] || 0} mergeCell={record.mergeCell} />
+                children: <RowRender text={keyName[text] ? keyName[text] : text.replaceAll("_"," ")} mergeCell={record.mergeCell} />
             }),
         }];
         console.log("Table.SELECTION_COLUMN", Table.SELECTION_COLUMN)
