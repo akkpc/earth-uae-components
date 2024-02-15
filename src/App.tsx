@@ -17,9 +17,6 @@ const router = createBrowserRouter([
 
 function App() {
   return (
-    // <div className="App">
-    //   <Comparison_Table_POC/>
-    // </div>
     <RouterProvider router={router} />
   );
 }
