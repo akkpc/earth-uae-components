@@ -9,7 +9,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/",
-    element: <div>Hello</div>
+    element: <Comparison_Table_POC />
   }
 ])
 

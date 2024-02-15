@@ -2,7 +2,6 @@
   "name": "earth-uae-components",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://akkpc.github.io/earth-uae-components",
   "dependencies": {
     "@kissflow/lowcode-client-sdk": "^1.0.21",
     "@testing-library/jest-dom": "^5.17.0",
