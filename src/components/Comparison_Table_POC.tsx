@@ -98,7 +98,7 @@ const Comparison_Table_POC: React.FC = () => {
                     let data: any = { parameters: key }
                     vendorCatalog.forEach((vendor: any) => {
                         if(key == "Image_1") {
-                            data[vendor.Vendor_Code] = `${process.env.REACT_APP_API_URL}/view/filepreview/form/Vendor_Catalog_A00/${vendor._id}/Image_1`;
+                            data[vendor.Vendor_Code] = `${process.env.REACT_APP_API_URL}/view/filepreview/form/Vendor_Catalog_A00/${vendor._id}/Image_1?fileindex=0`;
                         } else {
                             data[vendor.Vendor_Code] = vendor[key];
                         }

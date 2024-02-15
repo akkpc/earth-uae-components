@@ -9,8 +9,12 @@ const router = createBrowserRouter([
   },
   {
     path: "/",
+    element:  <Comparison_Table_POC />
+  },
+  {
+    path: "/earth-uae-components",
     element: <Comparison_Table_POC />
-  }
+},
 ])
 
 function App() {
